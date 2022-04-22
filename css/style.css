@@ -1,0 +1,24 @@
+#rosquillas{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(3,33%);
+}
+.article{
+    width: 100%;
+    border: 1px solid black;
+}
+#article-0001{
+    grid-column: 1/2;
+
+}
+
+#article-0002{
+    grid-column: 2/3;
+}
+
+#article-0003{
+    grid-column: 3/4;
+}
+img{
+    width: 250px;
+}
